@@ -10,5 +10,5 @@ cosas q faltan:
 Lovelike no sería posible sin la publicación de:
 Animated Background Gradient by Mario Klingemann [https://codepen.io/quasimondo/pen/lDdrF]
 &&
-Audio player HTML5 by Ivan [https://codepen.io/k-ivan/pen/pJMLmJ] &&  Sunset by minnix - Felix De Montis https://codepen.io/dervondenbergen/pen/OPqmZO Gracias por compartir <3 [Couster]
+Audio player HTML5 by Ivan [https://codepen.io/k-ivan/pen/pJMLmJ] &&  Sunset by minnix - Felix De Montis https://codepen.io/dervondenbergen/pen/OPqmZO Gracias por compartir <3
 -->
