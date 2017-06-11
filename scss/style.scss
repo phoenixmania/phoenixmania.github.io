@@ -1,0 +1,112 @@
+$color-theme: deepskyblue, orange, gold, hotpink, plum, salmon, lightpink;
+$btn-width: 5em;
+$btn-height: 5em;
+$btn-circle: 5em;
+$margin: 1em;
+
+*,*:before,*:after{
+  box-sizing: border-box;  
+  outline: none;
+}    
+
+html,body{
+  height: 100%;
+}
+
+body{
+  transition: .3s;
+  font: 16px verdana, sans-serif;
+  margin: 0;
+  min-height: 100%;
+  -webkit-user-select: none;
+  user-select: none;
+  color: #444;
+  &.toggle{
+    background: #252525;
+    color: #fff;
+  }
+}
+
+main{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  align-content: flex-start;
+  flex-flow: row wrap;
+  margin: 0 auto;
+  max-width: $btn-width*6.5 + 6.5*2*$margin;
+}
+
+button{
+  color: inherit;
+  font: inherit;
+  padding: 1em;  
+  cursor: pointer;
+  background: transparent;
+}
+
+.btn-toggle{
+  position: absolute;
+  botton: 4px;
+  right: 4px;
+  border: 1px solid rgba(darkgray,.4);
+}
+
+.btn-md {
+  transition: .5s ease-in-out;
+  -webkit-tap-highlight-color: rgba(0,0,0,0); 
+  margin: $margin;
+  width: $btn-width;
+  height: $btn-height;
+  border: 0 solid transparent;
+  box-shadow:  inset 0 0 0 $btn-height/2 nth($color-theme,1),0 0 2em nth($color-theme,1);
+
+  &:nth-child(n+8){
+    border-radius: 50%;
+  }
+
+  &:first-child{
+    order: 1;
+    transform: rotate(45deg);
+    border-radius: 50%;
+    height: $btn-circle;
+    width: $btn-circle;
+    border-color: nth($color-theme,1);
+    box-shadow:  inset $btn-width/2 0 0 rgba(nth($color-theme,1),1), inset $btn-width/-2 0 0 rgba(nth($color-theme,1),1),0 0 2em nth($color-theme,1);
+    > div{
+      transform: rotate(-45deg);
+    }
+  }
+  &:nth-child(2),&:nth-child(8){   
+    border-color: nth($color-theme,2);
+    box-shadow:  inset 0 $btn-height/1 0 rgba(nth($color-theme,2),1), inset $btn-width/1 0 0 rgba(nth($color-theme,2),1),0 0 2em nth($color-theme,2);
+  }
+  &:nth-child(3),&:nth-child(9){
+    border-color: nth($color-theme,3);
+    box-shadow:  inset 0 0 0 $btn-height/2 nth($color-theme,3),0 0 2em nth($color-theme,3);
+  }
+  &:nth-child(4),&:nth-child(10){
+    border-color: nth($color-theme,4);
+    box-shadow:  inset 0 $btn-height/2 0 rgba(nth($color-theme,4),1), inset 0 $btn-height/-2 0 rgba(nth($color-theme,4),1),0 0 2em nth($color-theme,4) ;
+  }
+  &:nth-child(5),&:nth-child(11){
+    border-color: nth($color-theme,5);
+    box-shadow:  inset $btn-width/2 0 0 rgba(nth($color-theme,5),1), inset $btn-width/-2 0 0 rgba(nth($color-theme,5),1),0 0 2em nth($color-theme,5);
+  }
+
+  &:nth-child(6),&:nth-child(12){    
+    border-color: nth($color-theme,6);
+    box-shadow:  inset 0 $btn-height/-1 0 rgba(nth($color-theme,6),1), inset $btn-width/1 0 0 rgba(nth($color-theme,6),1),0 0 2em nth($color-theme,6);
+  }
+
+  &:nth-child(7),&:nth-child(13){    
+    border-color: nth($color-theme,7);
+    box-shadow:  inset 0 $btn-height/-2 0 rgba(nth($color-theme,7),1), inset $btn-width/-2 0 0 rgba(nth($color-theme,7),1),inset 0 $btn-height/2 0 rgba(nth($color-theme,7),1), inset $btn-width/2 0 0 rgba(nth($color-theme,7),1),0 0 2em nth($color-theme,7);
+  }
+
+  &.inactive{
+    border: 1px solid rgba(darkgray,.4);
+    box-shadow: inset 0 0 0 transparent;
+  }
+}

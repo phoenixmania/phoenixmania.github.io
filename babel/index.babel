@@ -1,0 +1,39 @@
+function $(expr, context) {
+  return (context || document).querySelector(expr);
+}
+
+function $$(expr, context) {
+  return Array.prototype.slice.call((context || document).querySelectorAll(expr), 0);
+}
+
+((d) => {
+  $('.btn-toggle').addEventListener('click', _ =>
+    d.body.classList.toggle('toggle'));
+
+  $$('.btn-md').forEach(button => {
+    button.addEventListener('click', _ =>
+      button.classList.toggle('inactive')
+    );
+  });
+})(document);
+
+document.addEventListener("DOMContentLoaded", _ => {
+  let index = 1;
+  let clickEvent = new CustomEvent("click", {});
+  const buttons = $$('.btn-md');
+  buttons.forEach(button => {
+    ((button) => {
+      setTimeout(() => {
+        button.dispatchEvent(clickEvent);
+      }, 500 + 150 * index++);
+    })(button);
+    ((button) => {
+      setTimeout(_ => {
+        button.dispatchEvent(clickEvent);
+      }, 5500 + 200 * index++);
+    })(button);
+    setTimeout(_ => {
+      $('.btn-toggle').dispatchEvent(clickEvent);
+    }, 5000);
+  });
+});
