@@ -1,2 +1,2 @@
 # lovelikeasunset
-Playlist randomize
+Playlist randomize musical
