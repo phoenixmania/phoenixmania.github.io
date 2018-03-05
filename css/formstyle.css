@@ -1,0 +1,101 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,700);
+
+* { box-sizing: border-box; }
+
+html,body {
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	font-family: "Roboto", sans-serif;
+	font-size: 17px;
+	color: #333;
+	font-weight: 400;
+	background: linear-gradient(to bottom right, #9b59b6, #e74c3c);
+}
+
+.send { transition: all 1s ease-in-out; }
+
+.send .success { display: block; }
+.send .input-button { display: none; }
+
+.success {
+	display: none;
+	position: absolute;
+	top: 0; bottom: 0;
+	left: 0; right: 0;
+	border-radius: 3px;
+	background: linear-gradient(to bottom right, #1abc9c, #2ecc71);
+	text-align: center;
+	padding-top: 50px;
+	color: #fff;
+}
+.success i {
+	margin-bottom: 20px;
+}
+.success h1 {
+	font-size: 24px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.form-wrapper {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background: #fff;
+	width: 500px;
+	min-height: 100px;
+	border-radius: 3px;
+	box-shadow: 0 0 5px rgba(0,0,0,0.4);
+	padding: 30px;
+}
+
+.input-text {
+	display: block;
+	margin-bottom: 20px;
+}
+.input-text label {
+	display: block;
+	font-weight: 500;
+	color: #999;
+	font-size: 12px;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+}
+.input-text input[type="text"] {
+	outline: none;
+	border: 0;
+	border-bottom: 2px solid #ddd;
+	width: 100%;
+	display: block;
+	font-size: 24px;
+	transition: all .4s ease-in-out;
+	color: #333;
+	font-weight: 500;
+}
+.input-text input[type="text"]:focus {
+	border-color: #999;
+}
+.input-button { margin-top: 50px; }
+.input-button button {
+	color: #fff;
+	font-size: 32px;
+	height: 80px;
+	width: 80px;
+	text-align: center;
+	line-height: 80px;
+	border-radius: 80px;
+	position: absolute;
+	bottom: -30px; right: -30px;
+	border: 0;
+	background: linear-gradient(to bottom right, #2ecc71,#3498db);
+	box-shadow: 0 0 5px rgba(0,0,0,0.2);
+	cursor: pointer;
+}
+.input-button button:focus, .input-button button:hover {
+	outline:none;
+	color: rgba(255,255,255,0.5);
+}

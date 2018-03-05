@@ -567,15 +567,62 @@ var iconImage = 'http://funkyimg.com/i/21pX5.png';
 
 AP.init({
   playList: [
-      {'icon': iconImage, 'title': 'Love Like A Sunset by Phoenix', 'file':'ding/love-like-a-sunset.mp3'},//couster
-      {'icon': iconImage, 'title': 'The Look by Metronomy', 'file':'ding/the-look.mp3'},//couster
-      {'icon': iconImage, 'title': 'Louise (My Girl Looks Like David Bowie) by Papooz', 'file':'ding/louise-my-girl-looks-like-david-bowie.mp3'},//couster, low-fi
+
+      {'icon': iconImage, 'title': 'When I Was Done Dying by Dan Deacon', 'file':'ding/when-i-was-done-dying.mp3'},//couster
+      {'icon': iconImage, 'title': 'What´ll We Do by Someone Still Loves You Boris Yeltsin', 'file':'ding/what-ll-we-do.mp3'},//couster
+      {'icon': iconImage, 'title': 'Ti Amo by Phoenix', 'file':'ding/ti-amo.mp3'},//couster
+      {'icon': iconImage, 'title': 'Nepal by San Cisco', 'file':'ding/nepal.mp3'},//couster
+      {'icon': iconImage, 'title': 'YR Broom by Someone Still Loves You Boris Yeltsin', 'file':'ding/yr-broom.mp3'},//couster
       {'icon': iconImage, 'title': 'Sorry About Your Irony by Ten Eleven', 'file':'ding/sorry-about-your-irony.mp3'},//couster, instrumental,
       {'icon': iconImage, 'title': 'Daylighting - Life Without Buildings', 'file':'ding/daylighting.mp3'},//couster, mañana
+      {'icon': iconImage, 'title': 'What To Say by Born Ruffians', 'file':'ding/what-to-say.mp3'},//couster
+      {'icon': iconImage, 'title': 'The Look by Metronomy', 'file':'ding/the-look.mp3'},//couster
+      {'icon': iconImage, 'title': 'Everlasting Light by The Black Keys', 'file':'ding/everlasting-light.mp3'},//couster
+      {'icon': iconImage, 'title': 'Please Ask For Help by Telekinesis', 'file':'ding/please-ask-for-help.mp3'},//couster
+      {'icon': iconImage, 'title': 'Drakkar Noir by Phoenix', 'file':'ding/drakkar-noir.mp3'},//Couster
+      {'icon': iconImage, 'title': 'Hypocrite by Cage The Elephant', 'file':'ding/hypocrite.mp3'},//Couster
+      {'icon': iconImage, 'title': 'Hands by Alpine', 'file':'ding/hands.mp3'},//Couster
+      {'icon': iconImage, 'title': 'I Dare You by The XX', 'file':'ding/i-dare-you.mp3'},//Couster
+      {'icon': iconImage, 'title': 'On Hold by The XX', 'file':'ding/on-hold.mp3'},//Couster
+      {'icon': iconImage, 'title': 'Still Together (Live on KEXP) by Mac DeMarco', 'file':'ding/still-together.mp3'},//Couster
+      {'icon': iconImage, 'title': 'Beach by San Cisco', 'file':'ding/beach.mp3'},//couster
+      {'icon': iconImage, 'title': 'Nothing Gonna Hurt You Baby by Cigarettes After Sex', 'file':'ding/nothing-gonna-hurt-you-baby.mp3'},//Couster
+      {'icon': iconImage, 'title': 'Neighborhood #1 (Tunnels) by Arcade Fire', 'file':'ding/neighborhood-1.mp3'},//Couster
+      {'icon': iconImage, 'title': 'I Looked All over Town by The Magnetic Fields', 'file':'ding/i-looked-all-over-town.mp3'},//Couster
+      {'icon': iconImage, 'title': 'Afterlife by Arcade Fire', 'file':'ding/afterlife.mp3'},//Couster
+      {'icon': iconImage, 'title': 'Rising Up by Polock', 'file':'ding/rising-up.mp3'},//Couster
+      {'icon': iconImage, 'title': 'Isabella of Castile by Starfucker', 'file':'ding/isabella-of-castile.mp3'},//Couster
+      {'icon': iconImage, 'title': 'Awkward by San Cisco', 'file':'ding/awkward.mp3'},//couster
+      {'icon': iconImage, 'title': 'Love me Like You by The Magic Numbers', 'file':'ding/love-me-like-you.mp3'},//Couster
+      {'icon': iconImage, 'title': 'Its All Over by The Broken Family Band', 'file':'ding/its-all-over.mp3'},//Couster
+      {'icon': iconImage, 'title': 'Heads Up by Karen O & The Kids', 'file':'ding/heads-up.mp3'},//Couster
+      {'icon': iconImage, 'title': 'Bye Bye Macadam by Rone', 'file':'ding/bye-bye-macadam.mp3'},//Couster
+      {'icon': iconImage, 'title': 'In A Dream It Seemed Real by Islands', 'file':'ding/in-a-dream-it-seemed-real.mp3'},//Couster
+      {'icon': iconImage, 'title': 'You Can Have It All by Yo La Tengo', 'file':'ding/you-can-have-it-all.mp3'},//Couster
+      {'icon': iconImage, 'title': 'Release Me On The Floor by Figurines', 'file':'ding/release-me-on-the-floor.mp3'},//Couster
+      {'icon': iconImage, 'title': 'Seeds by Fog Lake', 'file':'ding/seeds.mp3'},//Couster
+      {'icon': iconImage, 'title': 'Library by Julia Brown', 'file':'ding/library.mp3'},//Couster
+      {'icon': iconImage, 'title': 'Anna by Will Butler', 'file':'ding/anna.mp3'},//Couster
+      {'icon': iconImage, 'title': 'Electric Blue by Arcade Fire', 'file':'ding/electric-blue.mp3'},//Couster Will Butler
+      {'icon': iconImage, 'title': 'The Magician by Andy Shauf', 'file':'ding/the-magician.mp3'},//Couster
+      {'icon': iconImage, 'title': 'Salad Days by Mac DeMarco', 'file':'ding/salad-days.mp3'},//chino
+      {'icon': iconImage, 'title': 'Dress Up In You by Belle And Sebastian', 'file':'ding/dress-up-in-you.mp3'},//couster
+      {'icon': iconImage, 'title': 'Goodbye Weekend by Mac DeMarco', 'file':'ding/goodbye-weekend.mp3'},//chino
+      {'icon': iconImage, 'title': 'Everything Goes My Way by Metronomy', 'file':'ding/everything-goes-my-way.mp3'},//couster
+      {'icon': iconImage, 'title': 'Spring Has Sprung by Skegss', 'file':'ding/spring-has-sprung.mp3'},//ezequiel
+      {'icon': iconImage, 'title': 'Heartbeat by The Knife', 'file':'ding/heartbeats.mp3'},//couster
+      {'icon': iconImage, 'title': ' Spitfire - Public Service Broadcasting',
+      'file':'ding/spitfire.mp3'},//couster
+      {'icon': iconImage, 'title': 'Forever Dumb by Surf Curse', 'file':'ding/forever-dumb.mp3'},//ezequiel
+      {'icon': iconImage, 'title': 'Sur La Planche 2013 by La Femme', 'file':'ding/sur-la-planche-2013.mp3'},//couster
+      {'icon': iconImage, 'title': 'Rawnald Gregory Erickson The Seco by STRFKR', 'file':'ding/rawnald-gregory-erickson-the-seco.mp3'},//couster
+      {'icon': iconImage, 'title': 'Lasso by Phoenix', 'file':'ding/lasso.mp3'},
+      {'icon': iconImage, 'title': 'Love Like A Sunset by Phoenix', 'file':'ding/love-like-a-sunset.mp3'},//couster
+      {'icon': iconImage, 'title': 'J-Boy by Phoenix', 'file':'ding/j-boy.mp3'},//couster
+      {'icon': iconImage, 'title': 'Louise (My Girl Looks Like David Bowie) by Papooz', 'file':'ding/louise-my-girl-looks-like-david-bowie.mp3'},//couster, low-fi
       {'icon': iconImage, 'title': 'Quite Like You by Andy Shauf', 'file':'ding/quite-like-you.mp3'},//Nachisimo
       {'icon': iconImage, 'title': 'No man´s land by Sufjan Stevens', 'file':'ding/no-mans-land.mp3'},//cian
       {'icon': iconImage, 'title': 'Only For You by Heartless Bastards', 'file':'ding/only-for-you.mp3'},
-      {'icon': iconImage, 'title': 'Dress Up In You by Belle And Sebastian', 'file':'ding/dress-up-in-you.mp3'},//couster
       {'icon': iconImage, 'title': 'Honeymoon by Phoenix', 'file':'ding/honeymoon.mp3'},//couster
       {'icon': iconImage, 'title': 'Business As Usual by Coma Cinema', 'file':'ding/business-as-usual.mp3'},//couster
       {'icon': iconImage, 'title': 'It´s Time To Wake Up 2023 by La Femme', 'file':'ding/its-time-to-wake-up-2023.mp3'},//couster
@@ -589,10 +636,8 @@ AP.init({
       {'icon': iconImage, 'title': 'Burning by Whitest Boy Alive', 'file':'ding/burning.mp3'},//couster
       {'icon': iconImage, 'title': 'Heartbeat by The Knife', 'file':'ding/heartbeats.mp3'},//couster
       {'icon': iconImage, 'title': 'Interior Light by Young Rival', 'file':'ding/interior-light.mp3'},//couster
-      {'icon': iconImage, 'title': 'Everything Goes My Way by Metronomy', 'file':'ding/everything-goes-my-way.mp3'},//couster
       {'icon': iconImage, 'title': 'I´m Not Gonna Teach Your Boyfriend by Black Kids ', 'file':'ding/im-not-gonna-teach-your-boyfriend.mp3'},//couster
       {'icon': iconImage, 'title': 'Waves by Electric Guest', 'file':'ding/waves.mp3'},
-      {'icon': iconImage, 'title': 'Lasso by Phoenix', 'file':'ding/lasso.mp3'},
       {'icon': iconImage, 'title': 'Black & Blue by Miike Snow', 'file':'ding/black-y-blue.mp3'},
       {'icon': iconImage, 'title': 'The Uselessness of Hands by Nuculars Animals', 'file':'ding/the-uselessness-of-hands.mp3'},
       {'icon': iconImage, 'title': 'We The Common by Thao & The Get Down Stay Down', 'file':'ding/we-the-common.mp3'},
@@ -615,8 +660,6 @@ AP.init({
       {'icon': iconImage, 'title': 'Blue Eyes by Good Shoes', 'file': 'ding/blue-eyes.mp3'},
       {'icon': iconImage, 'title': 'Buffalo by The Phoenix Foundation', 'file': 'ding/buffalo.mp3'},
       {'icon': iconImage, 'title': 'Photobooth by Friendly Fires', 'file': 'ding/photobooth.mp3'},
-
-      //Public Service Broadcasting - Spitfire
 
   ]
 });
