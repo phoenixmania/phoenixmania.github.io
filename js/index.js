@@ -568,8 +568,10 @@ var iconImage = 'http://funkyimg.com/i/21pX5.png';
 AP.init({
   playList: [
 
+      {'icon': iconImage, 'title': 'Lucky Number Nine by The Moldy Peaches', 'file':'ding/lucky-number-nine.mp3'},//couster
       {'icon': iconImage, 'title': 'When I Was Done Dying by Dan Deacon', 'file':'ding/when-i-was-done-dying.mp3'},//couster
       {'icon': iconImage, 'title': 'What´ll We Do by Someone Still Loves You Boris Yeltsin', 'file':'ding/what-ll-we-do.mp3'},//couster
+      {'icon': iconImage, 'title': 'Extraordinary Machine by Fiona Apple', 'file':'ding/extraordinary-machine.mp3'},//couster
       {'icon': iconImage, 'title': 'Ti Amo by Phoenix', 'file':'ding/ti-amo.mp3'},//couster
       {'icon': iconImage, 'title': 'Nepal by San Cisco', 'file':'ding/nepal.mp3'},//couster
       {'icon': iconImage, 'title': 'YR Broom by Someone Still Loves You Boris Yeltsin', 'file':'ding/yr-broom.mp3'},//couster
