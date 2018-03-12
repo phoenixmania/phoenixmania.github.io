@@ -572,6 +572,7 @@ AP.init({
       {'icon': iconImage, 'title': 'When I Was Done Dying by Dan Deacon', 'file':'ding/when-i-was-done-dying.mp3'},//couster
       {'icon': iconImage, 'title': 'What´ll We Do by Someone Still Loves You Boris Yeltsin', 'file':'ding/what-ll-we-do.mp3'},//couster
       {'icon': iconImage, 'title': 'Extraordinary Machine by Fiona Apple', 'file':'ding/extraordinary-machine.mp3'},//couster
+      {'icon': iconImage, 'title': 'Put Your Money on Me by Arcade Fire', 'file':'ding/put-your-money-on-me.mp3'},//couster
       {'icon': iconImage, 'title': 'Ti Amo by Phoenix', 'file':'ding/ti-amo.mp3'},//couster
       {'icon': iconImage, 'title': 'Nepal by San Cisco', 'file':'ding/nepal.mp3'},//couster
       {'icon': iconImage, 'title': 'YR Broom by Someone Still Loves You Boris Yeltsin', 'file':'ding/yr-broom.mp3'},//couster
