@@ -567,17 +567,27 @@ var iconImage = 'http://funkyimg.com/i/21pX5.png';
 
 AP.init({
   playList: [
-
+      {'icon': iconImage, 'title': '(Interlude 2) by Alt-J', 'file':'ding/interlude-2.mp3'},//couster
       {'icon': iconImage, 'title': 'Lucky Number Nine by The Moldy Peaches', 'file':'ding/lucky-number-nine.mp3'},//couster
-      {'icon': iconImage, 'title': 'When I Was Done Dying by Dan Deacon', 'file':'ding/when-i-was-done-dying.mp3'},//couster
+      {'icon': iconImage, 'title': 'The Leanover by Life Without Buildings', 'file':'ding/the-leanover.mp3'},//Couster
+      {'icon': iconImage, 'title': 'North by Phoenix', 'file':'ding/north.mp3'},//couster
+      {'icon': iconImage, 'title': 'Everything Goes My Way by Metronomy', 'file':'ding/everything-goes-my-way.mp3'},//couster
+      {'icon': iconImage, 'title': 'Verano by We Were Evergreen', 'file':'ding/verano.mp3'},//couster
+      {'icon': iconImage, 'title': 'Suburban War by Arcade Fire', 'file':'ding/suburban-war.mp3'},//couster
+      {'icon': iconImage, 'title': 'You Can Have It All by Yo La Tengo', 'file':'ding/you-can-have-it-all.mp3'},//Couster
+      {'icon': iconImage, 'title': 'Supersymmetry by Arcade Fire', 'file':'ding/supersymmetry.mp3'},//Couster
+      {'icon': iconImage, 'title': 'Chained by The XX', 'file':'ding/chained.mp3'},//Couster
       {'icon': iconImage, 'title': 'What´ll We Do by Someone Still Loves You Boris Yeltsin', 'file':'ding/what-ll-we-do.mp3'},//couster
+      {'icon': iconImage, 'title': 'Dancing Anymore by Is Tropical', 'file':'ding/dancing-anymore.mp3'},//Couster
+      
+      {'icon': iconImage, 'title': 'When I Was Done Dying by Dan Deacon', 'file':'ding/when-i-was-done-dying.mp3'},//couster
       {'icon': iconImage, 'title': 'Extraordinary Machine by Fiona Apple', 'file':'ding/extraordinary-machine.mp3'},//couster
       {'icon': iconImage, 'title': 'Put Your Money on Me by Arcade Fire', 'file':'ding/put-your-money-on-me.mp3'},//couster
       {'icon': iconImage, 'title': 'Ti Amo by Phoenix', 'file':'ding/ti-amo.mp3'},//couster
       {'icon': iconImage, 'title': 'Nepal by San Cisco', 'file':'ding/nepal.mp3'},//couster
       {'icon': iconImage, 'title': 'YR Broom by Someone Still Loves You Boris Yeltsin', 'file':'ding/yr-broom.mp3'},//couster
       {'icon': iconImage, 'title': 'Sorry About Your Irony by Ten Eleven', 'file':'ding/sorry-about-your-irony.mp3'},//couster, instrumental,
-      {'icon': iconImage, 'title': 'Daylighting - Life Without Buildings', 'file':'ding/daylighting.mp3'},//couster, mañana
+      {'icon': iconImage, 'title': 'Daylighting by Life Without Buildings', 'file':'ding/daylighting.mp3'},//couster, mañana
       {'icon': iconImage, 'title': 'What To Say by Born Ruffians', 'file':'ding/what-to-say.mp3'},//couster
       {'icon': iconImage, 'title': 'The Look by Metronomy', 'file':'ding/the-look.mp3'},//couster
       {'icon': iconImage, 'title': 'Everlasting Light by The Black Keys', 'file':'ding/everlasting-light.mp3'},//couster
@@ -601,7 +611,6 @@ AP.init({
       {'icon': iconImage, 'title': 'Heads Up by Karen O & The Kids', 'file':'ding/heads-up.mp3'},//Couster
       {'icon': iconImage, 'title': 'Bye Bye Macadam by Rone', 'file':'ding/bye-bye-macadam.mp3'},//Couster
       {'icon': iconImage, 'title': 'In A Dream It Seemed Real by Islands', 'file':'ding/in-a-dream-it-seemed-real.mp3'},//Couster
-      {'icon': iconImage, 'title': 'You Can Have It All by Yo La Tengo', 'file':'ding/you-can-have-it-all.mp3'},//Couster
       {'icon': iconImage, 'title': 'Release Me On The Floor by Figurines', 'file':'ding/release-me-on-the-floor.mp3'},//Couster
       {'icon': iconImage, 'title': 'Seeds by Fog Lake', 'file':'ding/seeds.mp3'},//Couster
       {'icon': iconImage, 'title': 'Library by Julia Brown', 'file':'ding/library.mp3'},//Couster
@@ -611,7 +620,6 @@ AP.init({
       {'icon': iconImage, 'title': 'Salad Days by Mac DeMarco', 'file':'ding/salad-days.mp3'},//chino
       {'icon': iconImage, 'title': 'Dress Up In You by Belle And Sebastian', 'file':'ding/dress-up-in-you.mp3'},//couster
       {'icon': iconImage, 'title': 'Goodbye Weekend by Mac DeMarco', 'file':'ding/goodbye-weekend.mp3'},//chino
-      {'icon': iconImage, 'title': 'Everything Goes My Way by Metronomy', 'file':'ding/everything-goes-my-way.mp3'},//couster
       {'icon': iconImage, 'title': 'Spring Has Sprung by Skegss', 'file':'ding/spring-has-sprung.mp3'},//ezequiel
       {'icon': iconImage, 'title': 'Heartbeat by The Knife', 'file':'ding/heartbeats.mp3'},//couster
       {'icon': iconImage, 'title': ' Spitfire - Public Service Broadcasting',
