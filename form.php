@@ -3,9 +3,9 @@ if(isset($_POST['email'])) {
 
     // Edita las dos líneas siguientes con tu dirección de correo y asunto personalizados
 
-    $email_to = "hola@theknox.xyz";
+    $email_to = "cesar.avello@live.com.ar";
 
-    $email_subject = "Contacto con knox";
+    $email_subject = "recomendacion lovelike";
 
     function died($error) {
 
@@ -23,34 +23,24 @@ if(isset($_POST['email'])) {
 
     // Se valida que los campos del formulairo estén llenos
 
-    if(!isset($_POST['name']) ||
+    if(!isset($_POST['reco']) ||
 
-        !isset($_POST['email']) ||
+        !isset($_POST['name']) ||
 
-        !isset($_POST['message'])) {
+        !isset($_POST['comen'])) {
 
         died('Lo sentimos pero parece haber un problema con los datos enviados.');
 
     }
  //En esta parte el valor "name" nos sirve para crear las variables que recolectaran la información de cada campo
 
-    $first_name = $_POST['name']; // requerido
+    $first_name = $_POST['reco']; // requerido
 
-    $email_from = $_POST['email']; // requerido
+    $email_from = $_POST['name']; // requerido
 
-    $message = $_POST['message']; // requerido
+    $message = $_POST['coment']; // requerido
 
     $error_message = "";
-
-//En esta parte se verifica que la dirección de correo sea válida
-
-   $email_exp = '/^[A-Za-z0-9._%-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,4}$/';
-
-  if(!preg_match($email_exp,$email_from)) {
-
-    $error_message .= 'La dirección de correo proporcionada no es válida.<br />';
-
-  }
 
 //En esta parte se validan las cadenas de texto
 
@@ -58,19 +48,19 @@ if(isset($_POST['email'])) {
 
   if(!preg_match($string_exp,$first_name)) {
 
-    $error_message .= 'El formato del nombre no es válido<br />';
+    $error_message .= 'escribi palabras picarona <br />';
 
   }
 
   if(!preg_match($string_exp,$last_name)) {
 
-    $error_message .= 'el formato del apellido no es válido.<br />';
+    $error_message .= 'escribi palabras picarona <br />';
 
   }
 
   if(strlen($message) > 2) {
 
-    $error_message .= 'El formato del texto no es válido.<br />';
+    $error_message .= 'escribi palabras picarona <br />';
 
   }
 
@@ -96,11 +86,11 @@ if(isset($_POST['email'])) {
 
 
 
-    $email_message .= "Nickname: ".clean_string($first_name)."\n";
+    $email_message .= "reco: ".clean_string($first_name)."\n";
 
-    $email_message .= "Email: ".clean_string($email_from)."\n";
+    $email_message .= "name: ".clean_string($email_from)."\n";
 
-    $email_message .= "Mensaje: ".clean_string($message)."\n";
+    $email_message .= "coment: ".clean_string($message)."\n";
 
 
 //Se crean los encabezados del correo
