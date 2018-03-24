@@ -1,4 +1,8 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
+<html>
+
+<!--Code Author: Mark-Anthony Karam
+Host: mark-anthony.ca-->
 <!-- Lovelike no sería posible sin la publicación de:
 Animated Background Gradient by Mario Klingemann [https://codepen.io/quasimondo/pen/lDdrF]
 &&
@@ -12,61 +16,51 @@ _                _ _ _                                       _
 
 
 -->
-<html >
 <head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Recomendame musiquita</title>
+
+<link type="text/css" rel="stylesheet" href="css/styles_f.css">
   <meta charset="UTF-8">
   <link rel="shortcut icon" href="http://lovelikeasunset.com/images/favicon.ico">
-  <title>Recomedame Canciones</title>
-  <meta name="autor" content="Couster">
-  <meta name="description" content=" Music playlist | love like a sunset inspire by the phoenix">
 
-
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
-
-  <link rel='stylesheet prefetch' href='http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css'>
-
-      <link rel="stylesheet" href="css/formstyle.css">
-      <link rel="stylesheet" href="css/titulo.css">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
-      <script src="js/font.js"></script>
-      <script src="js/prefixfree.js"></script>
-      <script src="js/font.js"></script>
-      <script src="mt.js"></script>
 </head>
 
 <body>
-<!--  Title -->
-    <div class="col col--futura">
-          <h2 class="title title--primary">Love like a sunset</h2>
-    </div>
+	
+	
 
-<!--  Form -->
+    <section class="body">
+    
+	    <form action="form.php" method="post" enctype="multipart/form-data">
+	        
+	        <h1 class="title">LOVE LIKE A SUNSET</h1>
+	        
+		    <label></label>
+		    <input name="name" required="required" placeholder="TU NOMBRE">
+            
+            <label></label>
+		    <input name="tel" type="tel" required="required" placeholder="NUMERO DE LA SUERTE">
+		    
+		            
+		    <label></label>
+		    <input name="email" type="email" required="required" placeholder="TU MAIL">
+		            
+		    
+		    <label></label>
+		    <textarea name="message" cols="20" rows="5" required="required" placeholder="TU RECOMENDACIÓN"></textarea>
+		    
+		    		    
+		    <input id="cancel" name="cancel" value="Cancel" />
+		            
+		    <input id="submit" name="submit" type="submit" value="Submit">
+	        
+	    </form>
 
-  <div class="form-wrapper">
-	<div class="success">
-		<i class="fa fa-check fa-3x"></i>
-		<h1>perdón por hacerte tipear, escribí tu recomendación via twitter a @sneakke que todavía no funca el form :3</h1>
-	</div>
-	<div class="input-text">
-		<label for="reco">Acá poné el nombre del tema que quieras recomendar por ej / skeleton boy by friendly fires </label>
-		<input type="text" id="reco" />
-	</div>
-	<div class="input-text">
-		<label for="name">Acá pone tu nickname / nombre / contacto para adjuntar a la recomendación si así lo quieres </label>
-		<input type="text" id="name" />
-	</div>
-	<div class="input-text">
-		<label for="coment">El comentario que quieras :3</label>
-		<input type="text" id="coment" />
-	</div>
-	<div class="input-button" 	input-button="http://lovelikeasunset..com/form.php">
-		<button><i class="fa fa-paper-plane"></i></button>
-	</div>
-</div>
-  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+    </section>
 
-    <script src="js/indexform.js"></script>
+
 
 </body>
+
 </html>
