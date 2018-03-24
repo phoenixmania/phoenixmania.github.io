@@ -570,6 +570,7 @@ AP.init({
       {'icon': iconImage, 'title': '(Interlude 2) by Alt-J', 'file':'ding/interlude-2.mp3'},//couster
       {'icon': iconImage, 'title': 'Lucky Number Nine by The Moldy Peaches', 'file':'ding/lucky-number-nine.mp3'},//couster
       {'icon': iconImage, 'title': 'The Leanover by Life Without Buildings', 'file':'ding/the-leanover.mp3'},//Couster
+      {'icon': iconImage, 'title': 'Taro by Alt-J', 'file':'ding/taro.mp3'},//couster
       {'icon': iconImage, 'title': 'North by Phoenix', 'file':'ding/north.mp3'},//couster
       {'icon': iconImage, 'title': 'Everything Goes My Way by Metronomy', 'file':'ding/everything-goes-my-way.mp3'},//couster
       {'icon': iconImage, 'title': 'Verano by We Were Evergreen', 'file':'ding/verano.mp3'},//couster
