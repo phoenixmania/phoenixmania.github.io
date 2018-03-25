@@ -581,7 +581,7 @@ AP.init({
       {'icon': iconImage, 'title': 'Chained by The XX', 'file':'ding/chained.mp3'},//Couster
       {'icon': iconImage, 'title': 'What´ll We Do by Someone Still Loves You Boris Yeltsin', 'file':'ding/what-ll-we-do.mp3'},//couster
       {'icon': iconImage, 'title': 'Dancing Anymore by Is Tropical', 'file':'ding/dancing-anymore.mp3'},//Couster
-
+      {'icon': iconImage, 'title': 'My rollercoaster by Kimya Dawson', 'file':'ding/my-rollercoaster.mp3'},//couster
       
       {'icon': iconImage, 'title': 'When I Was Done Dying by Dan Deacon', 'file':'ding/when-i-was-done-dying.mp3'},//couster
       {'icon': iconImage, 'title': 'Extraordinary Machine by Fiona Apple', 'file':'ding/extraordinary-machine.mp3'},//couster
