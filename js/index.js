@@ -567,11 +567,12 @@ var iconImage = 'http://funkyimg.com/i/21pX5.png';
 
 AP.init({
   playList: [
+      {'icon': iconImage, 'title': 'Tarde Baby by Triomiau', 'file':'ding/tarde-baby.mp3'},//couster
       {'icon': iconImage, 'title': 'Septembre by La Femme', 'file':'ding/septembre.mp3'},//couster
       {'icon': iconImage, 'title': '(Interlude 2) by Alt-J', 'file':'ding/interlude-2.mp3'},//couster
       {'icon': iconImage, 'title': 'Lucky Number Nine by The Moldy Peaches', 'file':'ding/lucky-number-nine.mp3'},//couster
       {'icon': iconImage, 'title': 'The Leanover by Life Without Buildings', 'file':'ding/the-leanover.mp3'},//Couster
-      {'icon': iconImage, 'title': 'Hedonistic Me by Is Tropical', 'file':'ding/hedonistic-me.mp3'},//Couster
+      {'icon': iconImage, 'title': 'Hedonistic Me by Born Ruffians', 'file':'ding/hedonistic-me.mp3'},//Couster
       {'icon': iconImage, 'title': 'Taro by Alt-J', 'file':'ding/taro.mp3'},//couster
       {'icon': iconImage, 'title': 'North by Phoenix', 'file':'ding/north.mp3'},//couster
       {'icon': iconImage, 'title': 'Everything Goes My Way by Metronomy', 'file':'ding/everything-goes-my-way.mp3'},//couster
