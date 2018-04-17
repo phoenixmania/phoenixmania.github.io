@@ -567,6 +567,9 @@ var iconImage = 'http://funkyimg.com/i/21pX5.png';
 
 AP.init({
   playList: [
+
+
+      {'icon': iconImage, 'title': 'Something For Your M.I.N.D (KEXP) by Superorganism', 'file':'ding/something-for-your-mind.mp3'},//couster
       {'icon': iconImage, 'title': 'Tarde Baby by Triomiau', 'file':'ding/tarde-baby.mp3'},//couster
       {'icon': iconImage, 'title': 'Septembre by La Femme', 'file':'ding/septembre.mp3'},//couster
       {'icon': iconImage, 'title': '(Interlude 2) by Alt-J', 'file':'ding/interlude-2.mp3'},//couster
