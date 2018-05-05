@@ -568,6 +568,7 @@ var iconImage = 'http://funkyimg.com/i/21pX5.png';
 AP.init({
   playList: [
 
+      {'icon': iconImage, 'title': 'Ramblin´Man by Lemon Jelly', 'file':'ding/ramblin´-man.mp3'},//lus
       {'icon': iconImage, 'title': 'La Femme d´Argent by Air', 'file':'ding/la-femme-d-argent.mp3'},//couster
       {'icon': iconImage, 'title': 'Thinking Loudly by El Ten Eleven', 'file':'ding/thinking-loudly.mp3'},//couster
       {'icon': iconImage, 'title': 'Something For Your M.I.N.D (KEXP) by Superorganism', 'file':'ding/something-for-your-mind.mp3'},//couster
