@@ -568,6 +568,9 @@ var iconImage = 'http://funkyimg.com/i/21pX5.png';
 AP.init({
   playList: [
 
+      {'icon': iconImage, 'title': 'Infinite Content by Arcade Fire', 'file':'ding/infinite-content.mp3'},//couster
+      {'icon': iconImage, 'title': 'The Moon Song by Karen O', 'file':'ding/the-moon-song.mp3'},//couster
+
       {'icon': iconImage, 'title': 'Ramblin´Man by Lemon Jelly', 'file':'ding/ramblin´-man.mp3'},//lus
       {'icon': iconImage, 'title': 'La Femme d´Argent by Air', 'file':'ding/la-femme-d-argent.mp3'},//couster
       {'icon': iconImage, 'title': 'Thinking Loudly by El Ten Eleven', 'file':'ding/thinking-loudly.mp3'},//couster
