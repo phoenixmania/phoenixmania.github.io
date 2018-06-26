@@ -568,6 +568,8 @@ var iconImage = 'http://funkyimg.com/i/21pX5.png';
 AP.init({
   playList: [
 
+      {'icon': iconImage, 'title': 'Symphonia IX by Grimes', 'file':'ding/symphonia-ix.mp3'},//couster
+      {'icon': iconImage, 'title': 'Tren de Aire Negro by La Gran Pérdida de Energía', 'file':'ding/tren-de-aire-negro.mp3'},//couster
       {'icon': iconImage, 'title': 'Infinite Content by Arcade Fire', 'file':'ding/infinite-content.mp3'},//couster
       {'icon': iconImage, 'title': 'The Moon Song by Karen O', 'file':'ding/the-moon-song.mp3'},//couster
 
