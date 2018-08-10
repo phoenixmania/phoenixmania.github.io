@@ -568,12 +568,15 @@ var iconImage = 'http://funkyimg.com/i/21pX5.png';
 AP.init({
   playList: [
 
-      {'icon': iconImage, 'title': 'Everything Now by Arcade fire', 'file':'ding/everything-now.mp3'},//couster
-      {'icon': iconImage, 'title': 'Carmen Habanera by Georges Bizet', 'file':'ding/carmen-habanera.mp3'},//couster
-      {'icon': iconImage, 'title': 'Symphonia IX by Grimes', 'file':'ding/symphonia-ix.mp3'},//couster
-      {'icon': iconImage, 'title': 'Tren de Aire Negro by La Gran Pérdida de Energía', 'file':'ding/tren-de-aire-negro.mp3'},//couster
       {'icon': iconImage, 'title': 'Infinite Content by Arcade Fire', 'file':'ding/infinite-content.mp3'},//couster
-      {'icon': iconImage, 'title': 'The Moon Song by Karen O', 'file':'ding/the-moon-song.mp3'},//couster
+      {'icon': iconImage, 'title': 'Everything Now by Arcade fire', 'file':'ding/everything-now.mp3'},//couster
+      {'icon': iconImage, 'title': 'Montanita by Ratatat', 'file':'ding/montanita.mp3'},//couster
+      {'icon': iconImage, 'title': 'Ask Me Anything by The Strokes', 'file':'ding/ask-me-anything.mp3'},//couster
+      {'icon': iconImage, 'title': 'Under Your Spell by Desire', 'file':'ding/under-your-spell.mp3'},
+      {'icon': iconImage, 'title': 'My rollercoaster by Kimya Dawson', 'file':'ding/my-rollercoaster.mp3'},//couster
+      {'icon': iconImage, 'title': 'Symphonia IX by Grimes', 'file':'ding/symphonia-ix.mp3'},//couster
+      {'icon': iconImage, 'title': 'Spitfire - Public Service Broadcasting', 'file':'ding/spitfire.mp3'},//couster
+      {'icon': iconImage, 'title': 'The Leanover by Life Without Buildings', 'file':'ding/the-leanover.mp3'},//Couster
 
       {'icon': iconImage, 'title': 'Ramblin´Man by Lemon Jelly', 'file':'ding/ramblin´-man.mp3'},//lus
       {'icon': iconImage, 'title': 'La Femme d´Argent by Air', 'file':'ding/la-femme-d-argent.mp3'},//couster
@@ -583,7 +586,8 @@ AP.init({
       {'icon': iconImage, 'title': 'Septembre by La Femme', 'file':'ding/septembre.mp3'},//couster
       {'icon': iconImage, 'title': '(Interlude 2) by Alt-J', 'file':'ding/interlude-2.mp3'},//couster
       {'icon': iconImage, 'title': 'Lucky Number Nine by The Moldy Peaches', 'file':'ding/lucky-number-nine.mp3'},//couster
-      {'icon': iconImage, 'title': 'The Leanover by Life Without Buildings', 'file':'ding/the-leanover.mp3'},//Couster
+      {'icon': iconImage, 'title': 'Carmen Habanera by Georges Bizet', 'file':'ding/carmen-habanera.mp3'},//couster
+      {'icon': iconImage, 'title': 'Tren de Aire Negro by La Gran Pérdida de Energía', 'file':'ding/tren-de-aire-negro.mp3'},//couster
       {'icon': iconImage, 'title': 'Hedonistic Me by Born Ruffians', 'file':'ding/hedonistic-me.mp3'},//Couster
       {'icon': iconImage, 'title': 'Taro by Alt-J', 'file':'ding/taro.mp3'},//couster
       {'icon': iconImage, 'title': 'North by Phoenix', 'file':'ding/north.mp3'},//couster
@@ -592,11 +596,10 @@ AP.init({
       {'icon': iconImage, 'title': 'Suburban War by Arcade Fire', 'file':'ding/suburban-war.mp3'},//couster
       {'icon': iconImage, 'title': 'You Can Have It All by Yo La Tengo', 'file':'ding/you-can-have-it-all.mp3'},//Couster
       {'icon': iconImage, 'title': 'Supersymmetry by Arcade Fire', 'file':'ding/supersymmetry.mp3'},//Couster
+      {'icon': iconImage, 'title': 'The Moon Song by Karen O', 'file':'ding/the-moon-song.mp3'},//couster
       {'icon': iconImage, 'title': 'Chained by The XX', 'file':'ding/chained.mp3'},//Couster
       {'icon': iconImage, 'title': 'What´ll We Do by Someone Still Loves You Boris Yeltsin', 'file':'ding/what-ll-we-do.mp3'},//couster
       {'icon': iconImage, 'title': 'Dancing Anymore by Is Tropical', 'file':'ding/dancing-anymore.mp3'},//Couster
-      {'icon': iconImage, 'title': 'My rollercoaster by Kimya Dawson', 'file':'ding/my-rollercoaster.mp3'},//couster
-      {'icon': iconImage, 'title': 'Montanita by Ratatat', 'file':'ding/montanita.mp3'},//couster
       
       {'icon': iconImage, 'title': 'When I Was Done Dying by Dan Deacon', 'file':'ding/when-i-was-done-dying.mp3'},//couster
       {'icon': iconImage, 'title': 'Extraordinary Machine by Fiona Apple', 'file':'ding/extraordinary-machine.mp3'},//couster
@@ -640,8 +643,6 @@ AP.init({
       {'icon': iconImage, 'title': 'Goodbye Weekend by Mac DeMarco', 'file':'ding/goodbye-weekend.mp3'},//chino
       {'icon': iconImage, 'title': 'Spring Has Sprung by Skegss', 'file':'ding/spring-has-sprung.mp3'},//ezequiel
       {'icon': iconImage, 'title': 'Heartbeat by The Knife', 'file':'ding/heartbeats.mp3'},//couster
-      {'icon': iconImage, 'title': ' Spitfire - Public Service Broadcasting',
-      'file':'ding/spitfire.mp3'},//couster
       {'icon': iconImage, 'title': 'Forever Dumb by Surf Curse', 'file':'ding/forever-dumb.mp3'},//ezequiel
       {'icon': iconImage, 'title': 'Sur La Planche 2013 by La Femme', 'file':'ding/sur-la-planche-2013.mp3'},//couster
       {'icon': iconImage, 'title': 'Rawnald Gregory Erickson The Seco by STRFKR', 'file':'ding/rawnald-gregory-erickson-the-seco.mp3'},//couster
@@ -676,7 +677,6 @@ AP.init({
       {'icon': iconImage, 'title': 'Modern Age by We Were Evergreen', 'file':'ding/modern-age.mp3'},
       {'icon': iconImage, 'title': 'Tuff Luff by The Unicorns', 'file':'ding/tuff-luff.mp3'},
       {'icon': iconImage, 'title': 'Such Great Heights by The Postal Service', 'file':'ding/such-great-heights.mp3'},
-      {'icon': iconImage, 'title': 'Under Your Spell by Desire', 'file':'ding/under-your-spell.mp3'},
       {'icon': iconImage, 'title': 'California by Grimes', 'file':'ding/california.mp3'},
       {'icon': iconImage, 'title': 'Antitaxi by La Femme', 'file':'ding/antitaxi.mp3'},
       {'icon': iconImage, 'title': 'Deadbeat Summer by Neon Indian', 'file':'ding/deadbeat-summer.mp3'},
