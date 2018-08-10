@@ -568,6 +568,7 @@ var iconImage = 'http://funkyimg.com/i/21pX5.png';
 AP.init({
   playList: [
 
+      {'icon': iconImage, 'title': 'Everything Now by Arcade fire', 'file':'ding/everything-now.mp3'},//couster
       {'icon': iconImage, 'title': 'Carmen Habanera by Georges Bizet', 'file':'ding/carmen-habanera.mp3'},//couster
       {'icon': iconImage, 'title': 'Symphonia IX by Grimes', 'file':'ding/symphonia-ix.mp3'},//couster
       {'icon': iconImage, 'title': 'Tren de Aire Negro by La Gran Pérdida de Energía', 'file':'ding/tren-de-aire-negro.mp3'},//couster
