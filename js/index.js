@@ -569,6 +569,7 @@ AP.init({
   playList: [
 
       {'icon': iconImage, 'title': 'Infinite Content by Arcade Fire', 'file':'ding/infinite-content.mp3'},//couster
+      {'icon': iconImage, 'title': 'Cooking Up Something Good by Mac DeMarco', 'file':'ding/cooking-up-something-good.mp3'},//couster
       {'icon': iconImage, 'title': 'Everything Now by Arcade fire', 'file':'ding/everything-now.mp3'},//couster
       {'icon': iconImage, 'title': 'Montanita by Ratatat', 'file':'ding/montanita.mp3'},//couster
       {'icon': iconImage, 'title': 'Ask Me Anything by The Strokes', 'file':'ding/ask-me-anything.mp3'},//couster
