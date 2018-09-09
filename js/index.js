@@ -568,6 +568,7 @@ var iconImage = 'http://funkyimg.com/i/21pX5.png';
 AP.init({
   playList: [
 
+      {'icon': iconImage, 'title': 'Still Corners - The Trip', 'file':'ding/the-trip.mp3'},//cian
       {'icon': iconImage, 'title': 'Infinite Content by Arcade Fire', 'file':'ding/infinite-content.mp3'},//couster
       {'icon': iconImage, 'title': 'Cooking Up Something Good by Mac DeMarco', 'file':'ding/cooking-up-something-good.mp3'},//couster
       {'icon': iconImage, 'title': 'Everything Now by Arcade fire', 'file':'ding/everything-now.mp3'},//couster
