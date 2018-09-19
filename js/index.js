@@ -568,15 +568,20 @@ var iconImage = 'http://funkyimg.com/i/21pX5.png';
 AP.init({
   playList: [
 
-      {'icon': iconImage, 'title': 'Still Corners - The Trip', 'file':'ding/the-trip.mp3'},//cian
+      {'icon': iconImage, 'title': 'The Black Keys - Fever', 'file':'ding/fever.mp3'},//couster
+      {'icon': iconImage, 'title': 'J-Boy by Phoenix', 'file':'ding/j-boy.mp3'},//couster
+      {'icon': iconImage, 'title': 'Dancing Anymore by Is Tropical', 'file':'ding/dancing-anymore.mp3'},//Couster
+      {'icon': iconImage, 'title': 'Awkward by San Cisco', 'file':'ding/awkward.mp3'},//couster
+      {'icon': iconImage, 'title': 'Girls Just Want To Have Fun by STRFKR', 'file':'ding/girls-just-want-to-have-fun.mp3'},
       {'icon': iconImage, 'title': 'Infinite Content by Arcade Fire', 'file':'ding/infinite-content.mp3'},//couster
       {'icon': iconImage, 'title': 'Cooking Up Something Good by Mac DeMarco', 'file':'ding/cooking-up-something-good.mp3'},//couster
-      {'icon': iconImage, 'title': 'Everything Now by Arcade fire', 'file':'ding/everything-now.mp3'},//couster
+      {'icon': iconImage, 'title': 'Still Corners - The Trip', 'file':'ding/the-trip.mp3'},//cian
       {'icon': iconImage, 'title': 'Montanita by Ratatat', 'file':'ding/montanita.mp3'},//couster
       {'icon': iconImage, 'title': 'Ask Me Anything by The Strokes', 'file':'ding/ask-me-anything.mp3'},//couster
       {'icon': iconImage, 'title': 'Under Your Spell by Desire', 'file':'ding/under-your-spell.mp3'},
       {'icon': iconImage, 'title': 'My rollercoaster by Kimya Dawson', 'file':'ding/my-rollercoaster.mp3'},//couster
       {'icon': iconImage, 'title': 'Symphonia IX by Grimes', 'file':'ding/symphonia-ix.mp3'},//couster
+      {'icon': iconImage, 'title': 'Everything Now by Arcade fire', 'file':'ding/everything-now.mp3'},//couster
       {'icon': iconImage, 'title': 'Spitfire - Public Service Broadcasting', 'file':'ding/spitfire.mp3'},//couster
       {'icon': iconImage, 'title': 'The Leanover by Life Without Buildings', 'file':'ding/the-leanover.mp3'},//Couster
 
@@ -593,6 +598,7 @@ AP.init({
       {'icon': iconImage, 'title': 'Hedonistic Me by Born Ruffians', 'file':'ding/hedonistic-me.mp3'},//Couster
       {'icon': iconImage, 'title': 'Taro by Alt-J', 'file':'ding/taro.mp3'},//couster
       {'icon': iconImage, 'title': 'North by Phoenix', 'file':'ding/north.mp3'},//couster
+      {'icon': iconImage, 'title': 'What To Say by Born Ruffians', 'file':'ding/what-to-say.mp3'},//couster
       {'icon': iconImage, 'title': 'Everything Goes My Way by Metronomy', 'file':'ding/everything-goes-my-way.mp3'},//couster
       {'icon': iconImage, 'title': 'Verano by We Were Evergreen', 'file':'ding/verano.mp3'},//couster
       {'icon': iconImage, 'title': 'Suburban War by Arcade Fire', 'file':'ding/suburban-war.mp3'},//couster
@@ -601,7 +607,6 @@ AP.init({
       {'icon': iconImage, 'title': 'The Moon Song by Karen O', 'file':'ding/the-moon-song.mp3'},//couster
       {'icon': iconImage, 'title': 'Chained by The XX', 'file':'ding/chained.mp3'},//Couster
       {'icon': iconImage, 'title': 'What´ll We Do by Someone Still Loves You Boris Yeltsin', 'file':'ding/what-ll-we-do.mp3'},//couster
-      {'icon': iconImage, 'title': 'Dancing Anymore by Is Tropical', 'file':'ding/dancing-anymore.mp3'},//Couster
       
       {'icon': iconImage, 'title': 'When I Was Done Dying by Dan Deacon', 'file':'ding/when-i-was-done-dying.mp3'},//couster
       {'icon': iconImage, 'title': 'Extraordinary Machine by Fiona Apple', 'file':'ding/extraordinary-machine.mp3'},//couster
@@ -611,7 +616,6 @@ AP.init({
       {'icon': iconImage, 'title': 'YR Broom by Someone Still Loves You Boris Yeltsin', 'file':'ding/yr-broom.mp3'},//couster
       {'icon': iconImage, 'title': 'Sorry About Your Irony by Ten Eleven', 'file':'ding/sorry-about-your-irony.mp3'},//couster, instrumental,
       {'icon': iconImage, 'title': 'Daylighting by Life Without Buildings', 'file':'ding/daylighting.mp3'},//couster, mañana
-      {'icon': iconImage, 'title': 'What To Say by Born Ruffians', 'file':'ding/what-to-say.mp3'},//couster
       {'icon': iconImage, 'title': 'The Look by Metronomy', 'file':'ding/the-look.mp3'},//couster
       {'icon': iconImage, 'title': 'Everlasting Light by The Black Keys', 'file':'ding/everlasting-light.mp3'},//couster
       {'icon': iconImage, 'title': 'Please Ask For Help by Telekinesis', 'file':'ding/please-ask-for-help.mp3'},//couster
@@ -628,7 +632,6 @@ AP.init({
       {'icon': iconImage, 'title': 'Afterlife by Arcade Fire', 'file':'ding/afterlife.mp3'},//Couster
       {'icon': iconImage, 'title': 'Rising Up by Polock', 'file':'ding/rising-up.mp3'},//Couster
       {'icon': iconImage, 'title': 'Isabella of Castile by Starfucker', 'file':'ding/isabella-of-castile.mp3'},//Couster
-      {'icon': iconImage, 'title': 'Awkward by San Cisco', 'file':'ding/awkward.mp3'},//couster
       {'icon': iconImage, 'title': 'Love me Like You by The Magic Numbers', 'file':'ding/love-me-like-you.mp3'},//Couster
       {'icon': iconImage, 'title': 'Its All Over by The Broken Family Band', 'file':'ding/its-all-over.mp3'},//Couster
       {'icon': iconImage, 'title': 'Heads Up by Karen O & The Kids', 'file':'ding/heads-up.mp3'},//Couster
@@ -641,6 +644,7 @@ AP.init({
       {'icon': iconImage, 'title': 'Electric Blue by Arcade Fire', 'file':'ding/electric-blue.mp3'},//Couster Will Butler
       {'icon': iconImage, 'title': 'The Magician by Andy Shauf', 'file':'ding/the-magician.mp3'},//Couster
       {'icon': iconImage, 'title': 'Salad Days by Mac DeMarco', 'file':'ding/salad-days.mp3'},//chino
+      {'icon': iconImage, 'title': 'It´s Time To Wake Up 2023 by La Femme', 'file':'ding/its-time-to-wake-up-2023.mp3'},//couster
       {'icon': iconImage, 'title': 'Dress Up In You by Belle And Sebastian', 'file':'ding/dress-up-in-you.mp3'},//couster
       {'icon': iconImage, 'title': 'Goodbye Weekend by Mac DeMarco', 'file':'ding/goodbye-weekend.mp3'},//chino
       {'icon': iconImage, 'title': 'Spring Has Sprung by Skegss', 'file':'ding/spring-has-sprung.mp3'},//ezequiel
@@ -650,14 +654,12 @@ AP.init({
       {'icon': iconImage, 'title': 'Rawnald Gregory Erickson The Seco by STRFKR', 'file':'ding/rawnald-gregory-erickson-the-seco.mp3'},//couster
       {'icon': iconImage, 'title': 'Lasso by Phoenix', 'file':'ding/lasso.mp3'},
       {'icon': iconImage, 'title': 'Love Like A Sunset by Phoenix', 'file':'ding/love-like-a-sunset.mp3'},//couster
-      {'icon': iconImage, 'title': 'J-Boy by Phoenix', 'file':'ding/j-boy.mp3'},//couster
       {'icon': iconImage, 'title': 'Louise (My Girl Looks Like David Bowie) by Papooz', 'file':'ding/louise-my-girl-looks-like-david-bowie.mp3'},//couster, low-fi
       {'icon': iconImage, 'title': 'Quite Like You by Andy Shauf', 'file':'ding/quite-like-you.mp3'},//Nachisimo
       {'icon': iconImage, 'title': 'No man´s land by Sufjan Stevens', 'file':'ding/no-mans-land.mp3'},//cian
       {'icon': iconImage, 'title': 'Only For You by Heartless Bastards', 'file':'ding/only-for-you.mp3'},
       {'icon': iconImage, 'title': 'Honeymoon by Phoenix', 'file':'ding/honeymoon.mp3'},//couster
       {'icon': iconImage, 'title': 'Business As Usual by Coma Cinema', 'file':'ding/business-as-usual.mp3'},//couster
-      {'icon': iconImage, 'title': 'It´s Time To Wake Up 2023 by La Femme', 'file':'ding/its-time-to-wake-up-2023.mp3'},//couster
       {'icon': iconImage, 'title': 'Vintage Car by We Were Evergreen', 'file':'ding/vintage-car.mp3'},//couster
       {'icon': iconImage, 'title': 'Diane Young by Vampire Weekend', 'file': 'ding/diane-young.mp3'},//couster
       {'icon': iconImage, 'title': 'California by Grimes', 'file':'ding/california.mp3'},//couster
@@ -675,7 +677,6 @@ AP.init({
       {'icon': iconImage, 'title': 'We The Common by Thao & The Get Down Stay Down', 'file':'ding/we-the-common.mp3'},
       {'icon': iconImage, 'title': 'Alleyway by Life in Film', 'file':'ding/alleyway.mp3'},
       {'icon': iconImage, 'title': 'You Go Running by Deep Sea Diver', 'file':'ding/you-go-running.mp3'},
-      {'icon': iconImage, 'title': 'Girls Just Want To Have Fun by STRFKR', 'file':'ding/girls-just-want-to-have-fun.mp3'},
       {'icon': iconImage, 'title': 'Modern Age by We Were Evergreen', 'file':'ding/modern-age.mp3'},
       {'icon': iconImage, 'title': 'Tuff Luff by The Unicorns', 'file':'ding/tuff-luff.mp3'},
       {'icon': iconImage, 'title': 'Such Great Heights by The Postal Service', 'file':'ding/such-great-heights.mp3'},
