@@ -568,6 +568,7 @@ var iconImage = 'http://funkyimg.com/i/21pX5.png';
 AP.init({
   playList: [
 
+      {'icon': iconImage, 'title': 'Lorde - The Love Club', 'file':'ding/the-love-club.mp3'},//couster
       {'icon': iconImage, 'title': 'The Black Keys - Fever', 'file':'ding/fever.mp3'},//couster
       {'icon': iconImage, 'title': 'J-Boy by Phoenix', 'file':'ding/j-boy.mp3'},//couster
       {'icon': iconImage, 'title': 'Dancing Anymore by Is Tropical', 'file':'ding/dancing-anymore.mp3'},//Couster
