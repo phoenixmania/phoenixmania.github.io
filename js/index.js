@@ -568,7 +568,7 @@ var iconImage = 'http://funkyimg.com/i/21pX5.png';
 AP.init({
   playList: [
 
-
+      {'icon': iconImage, 'title': 'Belle & Sebastian by Piazza, New York Catcher', 'file':'ding/piazza-new-york-catcher.mp3'},//couster
       {'icon': iconImage, 'title': 'Ben Folds - You Dont know me', 'file':'ding/you-dont-know-me.mp3'},//couster
       {'icon': iconImage, 'title': 'Lorde - The Love Club', 'file':'ding/the-love-club.mp3'},//couster
       {'icon': iconImage, 'title': 'The Black Keys - Fever', 'file':'ding/fever.mp3'},//couster
