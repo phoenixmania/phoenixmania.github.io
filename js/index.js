@@ -568,6 +568,11 @@ var iconImage = 'http://funkyimg.com/i/21pX5.png';
 AP.init({
   playList: [
 
+      {'icon': iconImage, 'title': 'Dance Yrself Clean by LCD Soundsystem', 'file':'ding/dance-yrself-clean.mp3'},//couster
+      {'icon': iconImage, 'title': 'By Your Side by Cocorosie', 'file':'ding/by-your-side.mp3'},//moluts
+      {'icon': iconImage, 'title': 'Her Morning Elegance by Oren Lavie', 'file':'ding/her-morning-elegance.mp3'},//cian
+      {'icon': iconImage, 'title': 'This Old Dog by Mac DeMarco', 'file':'ding/this-old-dog.mp3'},//couster
+
       {'icon': iconImage, 'title': 'Hunnybee by Unknown mortal Orchestra', 'file':'ding/hunnybee.mp3'},//couster
       {'icon': iconImage, 'title': 'Belle & Sebastian by Piazza, New York Catcher', 'file':'ding/piazza-new-york-catcher.mp3'},//couster
       {'icon': iconImage, 'title': 'Ben Folds - You Dont know me', 'file':'ding/you-dont-know-me.mp3'},//couster
