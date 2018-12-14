@@ -568,9 +568,10 @@ var iconImage = 'http://funkyimg.com/i/21pX5.png';
 AP.init({
   playList: [
 
+awful-sound-(oh-eurydice).mp3
 
-
-
+      {'icon': iconImage, 'title': 'Awful Sound (Oh Eurydice) by Arcade Fire', 'file':'ding/awful-sound-(oh-eurydice).mp3'},//couster
+      {'icon': iconImage, 'title': 'It´s Time To Wake Up 2023 by La Femme', 'file':'ding/its-time-to-wake-up-2023.mp3'},//couster
       {'icon': iconImage, 'title': 'Here Comes The Night Time II by Arcade Fire', 'file':'ding/here-comes-the-night-time-II.mp3'},//couster
 
       {'icon': iconImage, 'title': 'Dance Yrself Clean by LCD Soundsystem', 'file':'ding/dance-yrself-clean.mp3'},//couster
@@ -658,7 +659,6 @@ AP.init({
       {'icon': iconImage, 'title': 'Electric Blue by Arcade Fire', 'file':'ding/electric-blue.mp3'},//Couster Will Butler
       {'icon': iconImage, 'title': 'The Magician by Andy Shauf', 'file':'ding/the-magician.mp3'},//Couster
       {'icon': iconImage, 'title': 'Salad Days by Mac DeMarco', 'file':'ding/salad-days.mp3'},//chino
-      {'icon': iconImage, 'title': 'It´s Time To Wake Up 2023 by La Femme', 'file':'ding/its-time-to-wake-up-2023.mp3'},//couster
       {'icon': iconImage, 'title': 'Dress Up In You by Belle And Sebastian', 'file':'ding/dress-up-in-you.mp3'},//couster
       {'icon': iconImage, 'title': 'Goodbye Weekend by Mac DeMarco', 'file':'ding/goodbye-weekend.mp3'},//chino
       {'icon': iconImage, 'title': 'Spring Has Sprung by Skegss', 'file':'ding/spring-has-sprung.mp3'},//ezequiel
