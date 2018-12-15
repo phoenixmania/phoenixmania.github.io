@@ -568,7 +568,6 @@ var iconImage = 'http://funkyimg.com/i/21pX5.png';
 AP.init({
   playList: [
 
-awful-sound-(oh-eurydice).mp3
 
       {'icon': iconImage, 'title': 'Awful Sound (Oh Eurydice) by Arcade Fire', 'file':'ding/awful-sound-(oh-eurydice).mp3'},//couster
       {'icon': iconImage, 'title': 'It´s Time To Wake Up 2023 by La Femme', 'file':'ding/its-time-to-wake-up-2023.mp3'},//couster
