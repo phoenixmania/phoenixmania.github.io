@@ -568,6 +568,7 @@ var iconImage = 'http://funkyimg.com/i/21pX5.png';
 AP.init({
   playList: [
 
+
       {'icon': iconImage, 'title': 'Just a Cloud by Lusine', 'file':'ding/just-a-cloud.mp3'},//couster
       {'icon': iconImage, 'title': 'Too Much by Sufjan Stevens', 'file':'ding/too-much.mp3'},//couster
       {'icon': iconImage, 'title': 'Close To Me by The Cure', 'file':'ding/close-to-me.mp3'},//couster
