@@ -570,6 +570,7 @@ AP.init({
 
       {'icon': iconImage, 'title': 'Love Like A Sunset by Phoenix', 'file':'ding/love-like-a-sunset.mp3'},//couster
       {'icon': iconImage, 'title': 'MS by Alt-J', 'file':'ding/ms.mp3'},//couster
+      {'icon': iconImage, 'title': 'It´s Late by A Beacon School', 'file':'ding/it-s-late.mp3'},//couster
       {'icon': iconImage, 'title': 'Just a Cloud by Lusine', 'file':'ding/just-a-cloud.mp3'},//couster
       {'icon': iconImage, 'title': 'Too Much by Sufjan Stevens', 'file':'ding/too-much.mp3'},//couster
       {'icon': iconImage, 'title': 'Close To Me by The Cure', 'file':'ding/close-to-me.mp3'},//couster
