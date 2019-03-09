@@ -568,6 +568,7 @@ var iconImage = 'http://funkyimg.com/i/21pX5.png';
 AP.init({
   playList: [
 
+      {'icon': iconImage, 'title': 'Love Like A Sunset by Phoenix', 'file':'ding/love-like-a-sunset.mp3'},//couster
       {'icon': iconImage, 'title': 'MS by Alt-J', 'file':'ding/ms.mp3'},//couster
       {'icon': iconImage, 'title': 'Just a Cloud by Lusine', 'file':'ding/just-a-cloud.mp3'},//couster
       {'icon': iconImage, 'title': 'Too Much by Sufjan Stevens', 'file':'ding/too-much.mp3'},//couster
@@ -624,7 +625,7 @@ AP.init({
       {'icon': iconImage, 'title': 'The Moon Song by Karen O', 'file':'ding/the-moon-song.mp3'},//couster
       {'icon': iconImage, 'title': 'Chained by The XX', 'file':'ding/chained.mp3'},//Couster
       {'icon': iconImage, 'title': 'What´ll We Do by Someone Still Loves You Boris Yeltsin', 'file':'ding/what-ll-we-do.mp3'},//couster
-      
+
       {'icon': iconImage, 'title': 'When I Was Done Dying by Dan Deacon', 'file':'ding/when-i-was-done-dying.mp3'},//couster
       {'icon': iconImage, 'title': 'Extraordinary Machine by Fiona Apple', 'file':'ding/extraordinary-machine.mp3'},//couster
       {'icon': iconImage, 'title': 'Put Your Money on Me by Arcade Fire', 'file':'ding/put-your-money-on-me.mp3'},//couster
@@ -669,7 +670,6 @@ AP.init({
       {'icon': iconImage, 'title': 'Sur La Planche 2013 by La Femme', 'file':'ding/sur-la-planche-2013.mp3'},//couster
       {'icon': iconImage, 'title': 'Rawnald Gregory Erickson The Seco by STRFKR', 'file':'ding/rawnald-gregory-erickson-the-seco.mp3'},//couster
       {'icon': iconImage, 'title': 'Lasso by Phoenix', 'file':'ding/lasso.mp3'},
-      {'icon': iconImage, 'title': 'Love Like A Sunset by Phoenix', 'file':'ding/love-like-a-sunset.mp3'},//couster
       {'icon': iconImage, 'title': 'Louise (My Girl Looks Like David Bowie) by Papooz', 'file':'ding/louise-my-girl-looks-like-david-bowie.mp3'},//couster, low-fi
       {'icon': iconImage, 'title': 'Quite Like You by Andy Shauf', 'file':'ding/quite-like-you.mp3'},//Nachisimo
       {'icon': iconImage, 'title': 'No man´s land by Sufjan Stevens', 'file':'ding/no-mans-land.mp3'},//cian
