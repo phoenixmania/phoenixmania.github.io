@@ -568,6 +568,7 @@ var iconImage = 'http://funkyimg.com/i/21pX5.png';
 AP.init({
   playList: [
 
+      {'icon': iconImage, 'title': 'East Harlem by Beirut', 'file':'ding/east-harlem.mp3'},//couster
       {'icon': iconImage, 'title': 'Love Like A Sunset by Phoenix', 'file':'ding/love-like-a-sunset.mp3'},//couster
       {'icon': iconImage, 'title': 'MS by Alt-J', 'file':'ding/ms.mp3'},//couster
       {'icon': iconImage, 'title': 'It´s Late by A Beacon School', 'file':'ding/it-s-late.mp3'},//couster
