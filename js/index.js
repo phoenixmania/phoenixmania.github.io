@@ -568,6 +568,10 @@ var iconImage = 'http://funkyimg.com/i/21pX5.png';
 AP.init({
   playList: [
 
+    Vendredi sur Mer - La Femme à la Peau Bleue
+    
+      {'icon': iconImage, 'title': 'Comme Si by Evergreen', 'file':'ding/comme-si.mp3'},//couster
+      {'icon': iconImage, 'title': 'La Femme à la Peau Bleue by Vendredi sur Mer', 'file':'ding/la-femme-a-la-peau-bleue.mp3'},//couster
       {'icon': iconImage, 'title': 'East Harlem by Beirut', 'file':'ding/east-harlem.mp3'},//couster
       {'icon': iconImage, 'title': 'Love Like A Sunset by Phoenix', 'file':'ding/love-like-a-sunset.mp3'},//couster
       {'icon': iconImage, 'title': 'MS by Alt-J', 'file':'ding/ms.mp3'},//couster
