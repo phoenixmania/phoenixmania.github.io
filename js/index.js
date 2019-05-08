@@ -568,6 +568,7 @@ var iconImage = 'http://funkyimg.com/i/21pX5.png';
 AP.init({
   playList: [
     
+      {'icon': iconImage, 'title': 'My Kind Of Woman by MacDemarco', 'file':'ding/my-kind-of-woman.mp3'},//couster
       {'icon': iconImage, 'title': 'Comme Si by Evergreen', 'file':'ding/comme-si.mp3'},//couster
       {'icon': iconImage, 'title': 'La Femme à la Peau Bleue by Vendredi sur Mer', 'file':'ding/la-femme-a-la-peau-bleue.mp3'},//couster
       {'icon': iconImage, 'title': 'Autumn Sweater by Yo la Tengo', 'file':'ding/autumn-sweater.mp3'},//couster
