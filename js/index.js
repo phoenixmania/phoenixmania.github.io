@@ -567,10 +567,19 @@ var iconImage = 'http://funkyimg.com/i/21pX5.png';
 
 AP.init({
   playList: [
-    
-      {'icon': iconImage, 'title': 'My Kind Of Woman by MacDemarco', 'file':'ding/my-kind-of-woman.mp3'},//couster
-      {'icon': iconImage, 'title': 'Comme Si by Evergreen', 'file':'ding/comme-si.mp3'},//couster
+
+      {'icon': iconImage, 'title': 'All I Need by Air', 'file':'ding/all-i-need.mp3'},//reco
       {'icon': iconImage, 'title': 'La Femme à la Peau Bleue by Vendredi sur Mer', 'file':'ding/la-femme-a-la-peau-bleue.mp3'},//couster
+      {'icon': iconImage, 'title': 'Hoppípolla by Sigur Rós', 'file':'ding/hoppipolla.mp3'},//recos de personas <3 
+      {'icon': iconImage, 'title': 'Gun-Shy by Grizzly Bear', 'file':'ding/gun-shy.mp3'},//recos de personas <3 
+      {'icon': iconImage, 'title': 'lovely head by Goldfrapp', 'file':'ding/lovely-head.mp3'},//recos de personas <3 
+      {'icon': iconImage, 'title': 'Lorde - The Love Club', 'file':'ding/the-love-club.mp3'},//couster
+      {'icon': iconImage, 'title': 'You & Me (Flume Remix) by MEUTE', 'file':'ding/you-and-me.mp3'},//recos de personas <3 
+      {'icon': iconImage, 'title': 'Stand Up by Hindi Zahra', 'file':'ding/stand-up.mp3'},//recos de personas <3 
+
+      {'icon': iconImage, 'title': 'My Kind Of Woman by MacDemarco', 'file':'ding/my-kind-of-woman.mp3'},//couster
+      {'icon': iconImage, 'title': 'It´s Time To Wake Up 2023 by La Femme', 'file':'ding/its-time-to-wake-up-2023.mp3'},//couster
+      {'icon': iconImage, 'title': 'Comme Si by Evergreen', 'file':'ding/comme-si.mp3'},//couster
       {'icon': iconImage, 'title': 'Autumn Sweater by Yo la Tengo', 'file':'ding/autumn-sweater.mp3'},//couster
       {'icon': iconImage, 'title': 'Nothing Matters When We´re Dancing by The Magnetic Fields', 'file':'ding/nothing-matters.mp3'},//couster
 
@@ -582,7 +591,7 @@ AP.init({
       {'icon': iconImage, 'title': 'Too Much by Sufjan Stevens', 'file':'ding/too-much.mp3'},//couster
       {'icon': iconImage, 'title': 'Close To Me by The Cure', 'file':'ding/close-to-me.mp3'},//couster
       {'icon': iconImage, 'title': 'Awful Sound (Oh Eurydice) by Arcade Fire', 'file':'ding/awful-sound-(oh-eurydice).mp3'},//couster
-      {'icon': iconImage, 'title': 'It´s Time To Wake Up 2023 by La Femme', 'file':'ding/its-time-to-wake-up-2023.mp3'},//couster
+      {'icon': iconImage, 'title': 'Suburban War by Arcade Fire', 'file':'ding/suburban-war.mp3'},//couster
       {'icon': iconImage, 'title': 'Here Comes The Night Time II by Arcade Fire', 'file':'ding/here-comes-the-night-time-II.mp3'},//couster
 
       {'icon': iconImage, 'title': 'Dance Yrself Clean by LCD Soundsystem', 'file':'ding/dance-yrself-clean.mp3'},//couster
@@ -593,7 +602,6 @@ AP.init({
       {'icon': iconImage, 'title': 'Hunnybee by Unknown mortal Orchestra', 'file':'ding/hunnybee.mp3'},//couster
       {'icon': iconImage, 'title': 'Belle & Sebastian by Piazza, New York Catcher', 'file':'ding/piazza-new-york-catcher.mp3'},//couster
       {'icon': iconImage, 'title': 'Ben Folds - You Dont know me', 'file':'ding/you-dont-know-me.mp3'},//couster
-      {'icon': iconImage, 'title': 'Lorde - The Love Club', 'file':'ding/the-love-club.mp3'},//couster
       {'icon': iconImage, 'title': 'The Black Keys - Fever', 'file':'ding/fever.mp3'},//couster
       {'icon': iconImage, 'title': 'J-Boy by Phoenix', 'file':'ding/j-boy.mp3'},//couster
       {'icon': iconImage, 'title': 'Dancing Anymore by Is Tropical', 'file':'ding/dancing-anymore.mp3'},//Couster
@@ -627,8 +635,8 @@ AP.init({
       {'icon': iconImage, 'title': 'What To Say by Born Ruffians', 'file':'ding/what-to-say.mp3'},//couster
       {'icon': iconImage, 'title': 'Everything Goes My Way by Metronomy', 'file':'ding/everything-goes-my-way.mp3'},//couster
       {'icon': iconImage, 'title': 'Verano by We Were Evergreen', 'file':'ding/verano.mp3'},//couster
-      {'icon': iconImage, 'title': 'Suburban War by Arcade Fire', 'file':'ding/suburban-war.mp3'},//couster
       {'icon': iconImage, 'title': 'You Can Have It All by Yo La Tengo', 'file':'ding/you-can-have-it-all.mp3'},//Couster
+      {'icon': iconImage, 'title': 'Seeds by Fog Lake', 'file':'ding/seeds.mp3'},//Couster
       {'icon': iconImage, 'title': 'Supersymmetry by Arcade Fire', 'file':'ding/supersymmetry.mp3'},//Couster
       {'icon': iconImage, 'title': 'The Moon Song by Karen O', 'file':'ding/the-moon-song.mp3'},//couster
       {'icon': iconImage, 'title': 'Chained by The XX', 'file':'ding/chained.mp3'},//Couster
@@ -664,7 +672,6 @@ AP.init({
       {'icon': iconImage, 'title': 'Bye Bye Macadam by Rone', 'file':'ding/bye-bye-macadam.mp3'},//Couster
       {'icon': iconImage, 'title': 'In A Dream It Seemed Real by Islands', 'file':'ding/in-a-dream-it-seemed-real.mp3'},//Couster
       {'icon': iconImage, 'title': 'Release Me On The Floor by Figurines', 'file':'ding/release-me-on-the-floor.mp3'},//Couster
-      {'icon': iconImage, 'title': 'Seeds by Fog Lake', 'file':'ding/seeds.mp3'},//Couster
       {'icon': iconImage, 'title': 'Library by Julia Brown', 'file':'ding/library.mp3'},//Couster
       {'icon': iconImage, 'title': 'Anna by Will Butler', 'file':'ding/anna.mp3'},//Couster
       {'icon': iconImage, 'title': 'Electric Blue by Arcade Fire', 'file':'ding/electric-blue.mp3'},//Couster Will Butler
