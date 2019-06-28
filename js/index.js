@@ -568,7 +568,10 @@ var iconImage = 'http://funkyimg.com/i/21pX5.png';
 AP.init({
   playList: [
 
+      {'icon': iconImage, 'title': 'New Attitude by The Babe Rainbow', 'file':'ding/new-attitude.mp3'},//reco
       {'icon': iconImage, 'title': 'Blue by Far Caspian', 'file':'ding/blue.mp3'},//reco
+      {'icon': iconImage, 'title': 'The Magician by The Babe Rainbow', 'file':'ding/the-magician-.mp3'},//reco
+
       {'icon': iconImage, 'title': 'All I Need by Air', 'file':'ding/all-i-need.mp3'},//reco
       {'icon': iconImage, 'title': 'La Femme à la Peau Bleue by Vendredi sur Mer', 'file':'ding/la-femme-a-la-peau-bleue.mp3'},//couster
       {'icon': iconImage, 'title': 'Hoppípolla by Sigur Rós', 'file':'ding/hoppipolla.mp3'},//recos de personas <3 
