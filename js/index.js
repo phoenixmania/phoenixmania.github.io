@@ -571,6 +571,8 @@ AP.init({
       {'icon': iconImage, 'title': 'Featherstone by The Paper Kites', 'file':'ding/featherstone.mp3'},//reco
       {'icon': iconImage, 'title': 'North by Phoenix', 'file':'ding/north.mp3'},//couster
       {'icon': iconImage, 'title': 'New Attitude by The Babe Rainbow', 'file':'ding/new-attitude.mp3'},//reco
+      {'icon': iconImage, 'title': 'Sour Fruit by MELT', 'file':'ding/sour-fruit.mp3'},//reco
+
       {'icon': iconImage, 'title': 'Blue by Far Caspian', 'file':'ding/blue.mp3'},//reco
       {'icon': iconImage, 'title': 'The Magician by The Babe Rainbow', 'file':'ding/the-magician-.mp3'},//reco
       {'icon': iconImage, 'title': 'Sprawl II (Mountains Beyond Mountains) by Arcade Fire', 'file':'ding/sprawl-II.mp3'},//reco
