@@ -568,6 +568,8 @@ var iconImage = 'http://funkyimg.com/i/21pX5.png';
 AP.init({
   playList: [
 
+      {'icon': iconImage, 'title': 'Featherstone by The Paper Kites', 'file':'ding/featherstone.mp3'},//reco
+      {'icon': iconImage, 'title': 'North by Phoenix', 'file':'ding/north.mp3'},//couster
       {'icon': iconImage, 'title': 'New Attitude by The Babe Rainbow', 'file':'ding/new-attitude.mp3'},//reco
       {'icon': iconImage, 'title': 'Blue by Far Caspian', 'file':'ding/blue.mp3'},//reco
       {'icon': iconImage, 'title': 'The Magician by The Babe Rainbow', 'file':'ding/the-magician-.mp3'},//reco
@@ -636,7 +638,6 @@ AP.init({
       {'icon': iconImage, 'title': 'Tren de Aire Negro by La Gran Pérdida de Energía', 'file':'ding/tren-de-aire-negro.mp3'},//couster
       {'icon': iconImage, 'title': 'Hedonistic Me by Born Ruffians', 'file':'ding/hedonistic-me.mp3'},//Couster
       {'icon': iconImage, 'title': 'Taro by Alt-J', 'file':'ding/taro.mp3'},//couster
-      {'icon': iconImage, 'title': 'North by Phoenix', 'file':'ding/north.mp3'},//couster
       {'icon': iconImage, 'title': 'What To Say by Born Ruffians', 'file':'ding/what-to-say.mp3'},//couster
       {'icon': iconImage, 'title': 'Everything Goes My Way by Metronomy', 'file':'ding/everything-goes-my-way.mp3'},//couster
       {'icon': iconImage, 'title': 'Verano by We Were Evergreen', 'file':'ding/verano.mp3'},//couster
