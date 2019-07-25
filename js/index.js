@@ -568,6 +568,7 @@ var iconImage = 'http://funkyimg.com/i/21pX5.png';
 AP.init({
   playList: [
 
+      {'icon': iconImage, 'title': 'In The Middle of The Night by Still Corners', 'file':'ding/in-the-middle-of-the-night.mp3'},//reco
       {'icon': iconImage, 'title': 'Featherstone by The Paper Kites', 'file':'ding/featherstone.mp3'},//reco
       {'icon': iconImage, 'title': 'North by Phoenix', 'file':'ding/north.mp3'},//couster
       {'icon': iconImage, 'title': 'New Attitude by The Babe Rainbow', 'file':'ding/new-attitude.mp3'},//reco
