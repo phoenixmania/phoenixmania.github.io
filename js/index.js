@@ -567,7 +567,13 @@ var iconImage = 'http://funkyimg.com/i/21pX5.png';
 
 AP.init({
   playList: [
+      {'icon': iconImage, 'title': 'It´s Late by A Beacon School', 'file':'ding/it-s-late.mp3'},//couster
+      {'icon': iconImage, 'title': 'Neighborhood #1 (Tunnels) by Arcade Fire', 'file':'ding/neighborhood-1.mp3'},//Couster
+      {'icon': iconImage, 'title': 'Suburban War by Arcade Fire', 'file':'ding/suburban-war.mp3'},//couster
+      {'icon': iconImage, 'title': 'Chained by The XX', 'file':'ding/chained.mp3'},//Couster
 
+
+//24-sep-2019
       {'icon': iconImage, 'title': 'In The Middle of The Night by Still Corners', 'file':'ding/in-the-middle-of-the-night.mp3'},//reco
       {'icon': iconImage, 'title': 'Featherstone by The Paper Kites', 'file':'ding/featherstone.mp3'},//reco
       {'icon': iconImage, 'title': 'North by Phoenix', 'file':'ding/north.mp3'},//couster
@@ -596,12 +602,10 @@ AP.init({
       {'icon': iconImage, 'title': 'East Harlem by Beirut', 'file':'ding/east-harlem.mp3'},//couster
       {'icon': iconImage, 'title': 'Love Like A Sunset by Phoenix', 'file':'ding/love-like-a-sunset.mp3'},//couster
       {'icon': iconImage, 'title': 'MS by Alt-J', 'file':'ding/ms.mp3'},//couster
-      {'icon': iconImage, 'title': 'It´s Late by A Beacon School', 'file':'ding/it-s-late.mp3'},//couster
       {'icon': iconImage, 'title': 'Just a Cloud by Lusine', 'file':'ding/just-a-cloud.mp3'},//couster
       {'icon': iconImage, 'title': 'Too Much by Sufjan Stevens', 'file':'ding/too-much.mp3'},//couster
       {'icon': iconImage, 'title': 'Close To Me by The Cure', 'file':'ding/close-to-me.mp3'},//couster
       {'icon': iconImage, 'title': 'Awful Sound (Oh Eurydice) by Arcade Fire', 'file':'ding/awful-sound-(oh-eurydice).mp3'},//couster
-      {'icon': iconImage, 'title': 'Suburban War by Arcade Fire', 'file':'ding/suburban-war.mp3'},//couster
       {'icon': iconImage, 'title': 'Here Comes The Night Time II by Arcade Fire', 'file':'ding/here-comes-the-night-time-II.mp3'},//couster
 
       {'icon': iconImage, 'title': 'Dance Yrself Clean by LCD Soundsystem', 'file':'ding/dance-yrself-clean.mp3'},//couster
@@ -648,7 +652,6 @@ AP.init({
       {'icon': iconImage, 'title': 'Seeds by Fog Lake', 'file':'ding/seeds.mp3'},//Couster
       {'icon': iconImage, 'title': 'Supersymmetry by Arcade Fire', 'file':'ding/supersymmetry.mp3'},//Couster
       {'icon': iconImage, 'title': 'The Moon Song by Karen O', 'file':'ding/the-moon-song.mp3'},//couster
-      {'icon': iconImage, 'title': 'Chained by The XX', 'file':'ding/chained.mp3'},//Couster
       {'icon': iconImage, 'title': 'What´ll We Do by Someone Still Loves You Boris Yeltsin', 'file':'ding/what-ll-we-do.mp3'},//couster
 
       {'icon': iconImage, 'title': 'When I Was Done Dying by Dan Deacon', 'file':'ding/when-i-was-done-dying.mp3'},//couster
@@ -670,7 +673,6 @@ AP.init({
       {'icon': iconImage, 'title': 'Still Together (Live on KEXP) by Mac DeMarco', 'file':'ding/still-together.mp3'},//Couster
       {'icon': iconImage, 'title': 'Beach by San Cisco', 'file':'ding/beach.mp3'},//couster
       {'icon': iconImage, 'title': 'Nothing Gonna Hurt You Baby by Cigarettes After Sex', 'file':'ding/nothing-gonna-hurt-you-baby.mp3'},//Couster
-      {'icon': iconImage, 'title': 'Neighborhood #1 (Tunnels) by Arcade Fire', 'file':'ding/neighborhood-1.mp3'},//Couster
       {'icon': iconImage, 'title': 'I Looked All over Town by The Magnetic Fields', 'file':'ding/i-looked-all-over-town.mp3'},//Couster
       {'icon': iconImage, 'title': 'Afterlife by Arcade Fire', 'file':'ding/afterlife.mp3'},//Couster
       {'icon': iconImage, 'title': 'Rising Up by Polock', 'file':'ding/rising-up.mp3'},//Couster
