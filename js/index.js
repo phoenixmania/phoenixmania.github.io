@@ -567,38 +567,39 @@ var iconImage = 'http://funkyimg.com/i/21pX5.png';
 
 AP.init({
   playList: [
+      {'icon': iconImage, 'title': 'Release Me On The Floor by Figurines', 'file':'ding/release-me-on-the-floor.mp3'},//couster
+      {'icon': iconImage, 'title': 'California (All The Way) by Luna', 'file':'ding/california-1.mp3'},//couster
+      {'icon': iconImage, 'title': 'Yoshimi Battle the Pink Robots by The Flaming Lips', 'file':'ding/yoshimi-battle.mp3'},//couster
+      {'icon': iconImage, 'title': 'Normandie by Shout Out Louds', 'file':'ding/normandie.mp3'},//couster
+      {'icon': iconImage, 'title': 'Outlined view by Ms. John Soda', 'file':'ding/outlined-view.mp3'},//couster
+      //update06-11-2019
       {'icon': iconImage, 'title': 'It´s Late by A Beacon School', 'file':'ding/it-s-late.mp3'},//couster
       {'icon': iconImage, 'title': 'Neighborhood #1 (Tunnels) by Arcade Fire', 'file':'ding/neighborhood-1.mp3'},//Couster
       {'icon': iconImage, 'title': 'Suburban War by Arcade Fire', 'file':'ding/suburban-war.mp3'},//couster
       {'icon': iconImage, 'title': 'Chained by The XX', 'file':'ding/chained.mp3'},//Couster
-
-
-//24-sep-2019
+      //24-sep-2019
       {'icon': iconImage, 'title': 'In The Middle of The Night by Still Corners', 'file':'ding/in-the-middle-of-the-night.mp3'},//reco
       {'icon': iconImage, 'title': 'Featherstone by The Paper Kites', 'file':'ding/featherstone.mp3'},//reco
       {'icon': iconImage, 'title': 'North by Phoenix', 'file':'ding/north.mp3'},//couster
       {'icon': iconImage, 'title': 'New Attitude by The Babe Rainbow', 'file':'ding/new-attitude.mp3'},//reco
       {'icon': iconImage, 'title': 'Sour Fruit by MELT', 'file':'ding/sour-fruit.mp3'},//reco
-
       {'icon': iconImage, 'title': 'Blue by Far Caspian', 'file':'ding/blue.mp3'},//reco
       {'icon': iconImage, 'title': 'The Magician by The Babe Rainbow', 'file':'ding/the-magician-.mp3'},//reco
       {'icon': iconImage, 'title': 'Sprawl II (Mountains Beyond Mountains) by Arcade Fire', 'file':'ding/sprawl-II.mp3'},//reco
-
       {'icon': iconImage, 'title': 'All I Need by Air', 'file':'ding/all-i-need.mp3'},//reco
       {'icon': iconImage, 'title': 'La Femme à la Peau Bleue by Vendredi sur Mer', 'file':'ding/la-femme-a-la-peau-bleue.mp3'},//couster
-      {'icon': iconImage, 'title': 'Hoppípolla by Sigur Rós', 'file':'ding/hoppipolla.mp3'},//recos de personas <3 
-      {'icon': iconImage, 'title': 'Gun-Shy by Grizzly Bear', 'file':'ding/gun-shy.mp3'},//recos de personas <3 
-      {'icon': iconImage, 'title': 'lovely head by Goldfrapp', 'file':'ding/lovely-head.mp3'},//recos de personas <3 
+      {'icon': iconImage, 'title': 'Realiti by Grimes', 'file': 'ding/realiti.mp3'},
+      {'icon': iconImage, 'title': 'Hoppípolla by Sigur Rós', 'file':'ding/hoppipolla.mp3'},//recos de personas <3
+      {'icon': iconImage, 'title': 'Gun-Shy by Grizzly Bear', 'file':'ding/gun-shy.mp3'},//recos de personas <3
+      {'icon': iconImage, 'title': 'lovely head by Goldfrapp', 'file':'ding/lovely-head.mp3'},//recos de personas <3
       {'icon': iconImage, 'title': 'Lorde - The Love Club', 'file':'ding/the-love-club.mp3'},//couster
-      {'icon': iconImage, 'title': 'You & Me (Flume Remix) by MEUTE', 'file':'ding/you-and-me.mp3'},//recos de personas <3 
-      {'icon': iconImage, 'title': 'Stand Up by Hindi Zahra', 'file':'ding/stand-up.mp3'},//recos de personas <3 
-
+      {'icon': iconImage, 'title': 'You & Me (Flume Remix) by MEUTE', 'file':'ding/you-and-me.mp3'},//recos de personas <3
+      {'icon': iconImage, 'title': 'Stand Up by Hindi Zahra', 'file':'ding/stand-up.mp3'},//recos de personas <3
       {'icon': iconImage, 'title': 'My Kind Of Woman by MacDemarco', 'file':'ding/my-kind-of-woman.mp3'},//couster
       {'icon': iconImage, 'title': 'It´s Time To Wake Up 2023 by La Femme', 'file':'ding/its-time-to-wake-up-2023.mp3'},//couster
       {'icon': iconImage, 'title': 'Comme Si by Evergreen', 'file':'ding/comme-si.mp3'},//couster
       {'icon': iconImage, 'title': 'Autumn Sweater by Yo la Tengo', 'file':'ding/autumn-sweater.mp3'},//couster
       {'icon': iconImage, 'title': 'Nothing Matters When We´re Dancing by The Magnetic Fields', 'file':'ding/nothing-matters.mp3'},//couster
-
       {'icon': iconImage, 'title': 'East Harlem by Beirut', 'file':'ding/east-harlem.mp3'},//couster
       {'icon': iconImage, 'title': 'Love Like A Sunset by Phoenix', 'file':'ding/love-like-a-sunset.mp3'},//couster
       {'icon': iconImage, 'title': 'MS by Alt-J', 'file':'ding/ms.mp3'},//couster
@@ -607,7 +608,6 @@ AP.init({
       {'icon': iconImage, 'title': 'Close To Me by The Cure', 'file':'ding/close-to-me.mp3'},//couster
       {'icon': iconImage, 'title': 'Awful Sound (Oh Eurydice) by Arcade Fire', 'file':'ding/awful-sound-(oh-eurydice).mp3'},//couster
       {'icon': iconImage, 'title': 'Here Comes The Night Time II by Arcade Fire', 'file':'ding/here-comes-the-night-time-II.mp3'},//couster
-
       {'icon': iconImage, 'title': 'Dance Yrself Clean by LCD Soundsystem', 'file':'ding/dance-yrself-clean.mp3'},//couster
       {'icon': iconImage, 'title': 'By Your Side by Cocorosie', 'file':'ding/by-your-side.mp3'},//moluts
       {'icon': iconImage, 'title': 'Her Morning Elegance by Oren Lavie', 'file':'ding/her-morning-elegance.mp3'},//cian
@@ -632,7 +632,6 @@ AP.init({
       {'icon': iconImage, 'title': 'Everything Now by Arcade fire', 'file':'ding/everything-now.mp3'},//couster
       {'icon': iconImage, 'title': 'Spitfire - Public Service Broadcasting', 'file':'ding/spitfire.mp3'},//couster
       {'icon': iconImage, 'title': 'The Leanover by Life Without Buildings', 'file':'ding/the-leanover.mp3'},//Couster
-
       {'icon': iconImage, 'title': 'Ramblin´Man by Lemon Jelly', 'file':'ding/ramblin´-man.mp3'},//lus
       {'icon': iconImage, 'title': 'La Femme d´Argent by Air', 'file':'ding/la-femme-d-argent.mp3'},//couster
       {'icon': iconImage, 'title': 'Thinking Loudly by El Ten Eleven', 'file':'ding/thinking-loudly.mp3'},//couster
@@ -653,7 +652,6 @@ AP.init({
       {'icon': iconImage, 'title': 'Supersymmetry by Arcade Fire', 'file':'ding/supersymmetry.mp3'},//Couster
       {'icon': iconImage, 'title': 'The Moon Song by Karen O', 'file':'ding/the-moon-song.mp3'},//couster
       {'icon': iconImage, 'title': 'What´ll We Do by Someone Still Loves You Boris Yeltsin', 'file':'ding/what-ll-we-do.mp3'},//couster
-
       {'icon': iconImage, 'title': 'When I Was Done Dying by Dan Deacon', 'file':'ding/when-i-was-done-dying.mp3'},//couster
       {'icon': iconImage, 'title': 'Extraordinary Machine by Fiona Apple', 'file':'ding/extraordinary-machine.mp3'},//couster
       {'icon': iconImage, 'title': 'Put Your Money on Me by Arcade Fire', 'file':'ding/put-your-money-on-me.mp3'},//couster
@@ -725,7 +723,6 @@ AP.init({
       {'icon': iconImage, 'title': 'California by Grimes', 'file':'ding/california.mp3'},
       {'icon': iconImage, 'title': 'Antitaxi by La Femme', 'file':'ding/antitaxi.mp3'},
       {'icon': iconImage, 'title': 'Deadbeat Summer by Neon Indian', 'file':'ding/deadbeat-summer.mp3'},
-      {'icon': iconImage, 'title': 'Realiti by Grimes', 'file': 'ding/realiti.mp3'},
       {'icon': iconImage, 'title': 'Death To Los Campesinos! by Los Campesinos!', 'file':'ding/death-to-los-campesinos.mp3'},
       {'icon': iconImage, 'title': 'Boy Toy by STRFKR', 'file': 'ding/boy-toy.mp3'},
       {'icon': iconImage, 'title': 'Helping Handby Pollens', 'file': 'ding/helping-hand.mp3'},
