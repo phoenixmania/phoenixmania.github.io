@@ -64,7 +64,7 @@ var AudioPlayer = (function() {
     preloadBar     = player.querySelector('.ap-preload-bar');
     volumeBar      = player.querySelector('.ap-volume-bar');
 
-    playList = settings.playList;
+    playList = shuffle(settings.playList);
 
     playBtn.addEventListener('click', playToggle, false);
     volumeBtn.addEventListener('click', volumeToggle, false);
@@ -510,6 +510,7 @@ var AudioPlayer = (function() {
     }
     return defaults;
   }
+
   function create(el, attr) {
     var element = document.createElement(el);
     if(attr) {
@@ -521,6 +522,22 @@ var AudioPlayer = (function() {
     }
     return element;
   }
+
+  /**
+   * Shuffles array in place.
+   * @param {Array} a items An array containing the items.
+   */
+  function shuffle(a) {
+    var j, x, i;
+    for (i = a.length - 1; i > 0; i--) {
+        j = Math.floor(Math.random() * (i + 1));
+        x = a[i];
+        a[i] = a[j];
+        a[j] = x;
+    }
+    return a;
+  }
+
 
   Element.prototype.offset = function() {
     var el = this.getBoundingClientRect(),
