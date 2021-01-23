@@ -584,9 +584,15 @@ var iconImage = 'http://funkyimg.com/i/21pX5.png';
 
 AP.init({
   playList: [
+      //update 23-01-2020
+      {'icon': iconImage, 'title': 'Thurs-6-25 by Sales', 'file':'ding/thurs-6-25.mp3'},//couster
+      {'icon': iconImage, 'title': 'Renee by Sales', 'file':'ding/renee.mp3'},//couster
+      {'icon': iconImage, 'title': 'Over by Sales', 'file':'ding/over.mp3'},//couster
+      {'icon': iconImage, 'title': 'Chinese new year by Sales', 'file':'ding/chinese-sew-year.mp3'},//couster
+      {'icon': iconImage, 'title': 'Big Sis by Sales', 'file':'ding/big-sis.mp3'},//couster
+      //update27-11-2019
       {'icon': iconImage, 'title': 'Amour plastique by Videoclub', 'file':'ding/amour-plastique.mp3'},//couster
       {'icon': iconImage, 'title': 'Roi by Videoclub', 'file':'ding/roi.mp3'},//couster
-      //update27-11-2019
       {'icon': iconImage, 'title': 'Release Me On The Floor by Figurines', 'file':'ding/release-me-on-the-floor.mp3'},//couster
       {'icon': iconImage, 'title': 'California (All The Way) by Luna', 'file':'ding/california-1.mp3'},//couster
       {'icon': iconImage, 'title': 'Yoshimi Battle the Pink Robots by The Flaming Lips', 'file':'ding/yoshimi-battle.mp3'},//couster
